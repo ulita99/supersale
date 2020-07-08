@@ -1,0 +1,231 @@
+html {
+    background: #e6e9e9;
+    background-image: linear-gradient(270deg, rgb(230, 233, 233) 0%, rgb(216, 221, 221) 100%);
+    -webkit-font-smoothing: antialiased;
+}
+
+body {
+    background: #fff;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.06);
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 0 auto;
+}
+
+
+    .imgover {
+      -webkit-transition: opacity 150ms;
+      transition: opacity 150ms;
+  }
+  .imgover:hover {
+      filter:Alpha(opacity=70); /* 旧IE */
+      opacity: 0.7;
+  }
+
+  .banner{
+    position: relative;
+    top: 10px;
+    padding: 10px;
+    background: #BF0001;
+  }
+
+h2 {
+  position: relative;
+  font-size: 40px;
+  font-weight: bold; 
+  width:100%;
+  padding-top: 10px;
+}
+
+h2:after {
+  content: "";
+  position: absolute;
+  left: 30px;
+  bottom: -30px;
+  width: 90%;
+  height: 7px;
+  background: -webkit-repeating-linear-gradient(-45deg, #0072e3, #0072e3 2px, #fff 2px, #fff 4px);
+  background: repeating-linear-gradient(-45deg, #0072e3, #0072e3 2px, #fff 2px, #fff 4px);
+}
+
+h3{
+    font-size: 40px;
+    font-weight: bold; 
+    position: relative;
+    display: inline-block;
+  padding: 0 55px;
+}
+
+
+h3:before, h3:after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    display: inline-block;
+    width: 45px;
+    height: 2px;
+    border-top: solid 1px black;
+    border-bottom: solid 1px black;
+  }
+  
+  h3:before {
+    left:0;
+  }
+  h3:after {
+    right: 0;
+  }
+
+    
+
+
+a {
+    color: #0083e8;
+}
+
+b,
+strong {
+    font-weight: 600;
+}
+
+ul {
+    list-style: none;
+}
+
+samp {
+    display: none;
+}
+
+img {
+    animation: colorize 2s cubic-bezier(0, 0, .78, .36) 1;
+    background: transparent;
+    display: block;
+    margin: 1.3em auto;
+    max-width: 100%;
+   
+}
+
+
+
+
+footer {
+    margin-top: 80px;
+    width: 100%;
+}
+footer .logo {
+    max-width: 350px;
+    margin: 0 auto;
+    display: block;
+}
+
+.copyright{
+	text-align: center;
+	margin: 5px 0;
+}
+
+
+
+body {
+	margin: 0px;
+	padding: 0px;
+	background:#fff;
+	text-align: center; 
+	color: #000;
+	font-size: 100%;
+	
+	font-family: 'Lucida Grande','Hiragino Kaku Gothic ProN',Meiryo, sans-serif;
+}
+
+/* リンクの色 */ 
+a:link {
+	color: #C30504;
+	text-decoration: none;
+}
+/* 訪問済みリンクの色 */
+a:visited { color: #C30504; text-decoration:none; }
+/* マウスオーバー、アクティブリンクの色 */
+a:hover, a:active { color: #FFD700; text-decoration:none; }
+
+hr { border: 1px dotted #666;}
+
+#contents-1 {
+	margin: 0 auto;
+    width: 960px;
+}
+
+
+
+#item-list ul li {
+	margin-left: 9px;
+display:block;
+float:left;
+margin-bottom:15px;
+list-style-type:none;
+text-align:center;
+position:relative; 
+right: 20px;
+}
+
+.pagetop-1 {
+  position: fixed;
+  bottom: 21px;
+  right: 19px;
+}
+
+.location{
+  display: flex;
+  justify-content: center;
+  }
+
+
+#maker {font-size: 80%;letter-spacing:-0.05em;
+	}
+#waribiki {font-size: 150%; background:#bf0000;color:#fff;padding:5px; font-weight:bold;letter-spacing:-0.05em; 
+	}
+#kakaku {font-size: 250%;color:#bf0000;padding:0 0 0 5px;font-weight:bold;letter-spacing:-0.05em;
+	}
+#tax {font-size: 100%;color:#bf0000;padding:0px;font-weight:bold;letter-spacing:-0.05em;
+	}
+#tit {font-size: 150%;background:#be1b21;color:#fff;padding:10px;font-weight:bold;margin-bottom:50px;
+	}
+#aka {color:red;font-size: 150%;}
+#ao {color:blue;}
+
+
+/* 56px */
+.toTop-arrow {
+	width: 3.5rem;
+	height: 3.5rem;
+	padding: 0;
+	margin: 0;
+	border: 0;
+	border-radius: 33%;
+	opacity: 0.6;
+	background: #E50012;
+	cursor: pointer;
+	position:fixed;
+	right: 1rem;
+	bottom: 1rem;
+	display: none;
+}
+.toTop-arrow::before, .toTop-arrow::after {
+	width: 31px;
+	height: 7px;
+	border-radius: 3px;
+	background: rgb(255, 238, 0);
+	position: absolute;
+	content: "";
+}
+.toTop-arrow::before {
+	transform: rotate(-45deg) translate(0, -50%);
+	left: 0.4rem;
+}
+.toTop-arrow::after {
+	transform: rotate(45deg) translate(0, -50%);
+	right: 0.4rem;
+}
+.toTop-arrow:focus {outline: none;}
+
+
+
+
